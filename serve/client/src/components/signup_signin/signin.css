@@ -1,0 +1,241 @@
+section{
+    position: relative;
+    width: 100%;
+    top: 60px;
+    min-height:100vh;   
+}
+
+/* .sign_container{
+    margin-top: 0px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign_header img{
+    width: 200px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.sign_form{
+    border: 1px solid #c9c9c9;
+    padding: 10px 30px;
+    margin-top: -50px;
+    border-radius: 5px;
+}
+
+.sign_form h1{
+    font-weight: 500;
+    font-size: 27px;
+    margin: 10px 0;
+}
+
+.sign_form label{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+.sign_form input{
+    width: 96%;
+    height: 28px;
+    /* padding: 3px 7px; */
+    /* border-radius: 3px;
+    outline: none;
+    border:1px solid #a6a6a6;
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+
+.sign_form .signin_btn{
+    margin-top: 7px;
+    margin-bottom: 23px;
+    width: 100%;
+    background: #f3d078;
+    cursor: pointer;
+    border:1px solid #9c7e31;
+    height: 29px;
+    outline: none;
+    border-radius: 3px;
+    color: #111;
+    background: linear-gradient(to bottom,#f7dfa5,#f0c14b)
+}
+
+.sign_form input:focus{
+    box-shadow: 0 0 5px 0px #ffbc2c;
+}
+
+.sign_form .signin_info{
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sign_form .signin_info p{
+    font-size: 13px;
+    font-weight: 600;
+    color: #222;
+}
+
+
+.sign_form .signin_info a{
+    font-size: 13px;
+    letter-spacing: .5px;
+    margin-left: 5px;
+    color: #0066c0;
+    text-decoration: none;
+    font-weight:600;
+}
+
+
+/* for login page */
+/* .create_accountinfo p{
+    font-size: 12px;
+    text-align: center;
+    color: #767676;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.create_accountinfo button{
+    background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+    height: 29px;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #adb1b8;
+    outline: none;
+    margin-top: 15px; */
+/* }
+
+.create_accountinfo a{
+    text-decoration: none;
+    color: #111;
+    padding: 10px 35px;
+    letter-spacing: .5px;
+}  */ 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  form input {
+    width: 30vw;
+    height: 5vh;
+    margin: 0.6vh 1vw;
+    text-align: center;
+    border: 3px solid #4e4946;
+    color: rgb(64, 31, 31);
+    /* font-weight: bold; */
+    font-size: 14px;
+  }
+  p{
+    display: inline-block;
+  }
+  
+  .container{
+    
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    /* height: 175px; */
+    font-size: 60px;
+    padding-top: 5vh;
+  }
+  .submit {
+    color: rgb(255, 255, 255);
+    background-color: #c9705e;
+    /* font-size: 22px; */
+    margin: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-family: auto;
+    border-radius: 5px;
+    border: none;
+    width: 12vw;
+    height: 5vh;
+    
+  }
+  body {
+    /* background: url("/image/register_bg.jpg");
+    background-size: cover; */
+    background-color: #f5eafc;
+    /* opacity: 0.5; */
+    
+  }
+  .submit:hover {
+    cursor: pointer;
+    background-color: rgb(70, 84, 84);
+  }
+  .signup, .signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .signup p, .signin p {
+    /* margin-right: 5px; */
+    font-size: 20px;
+    font-size: 1.5rem;
+    color: rgb(171, 168, 176);
+  }
+  .signin a, .signup a{
+    font-size: 20px;
+    color: rgb(77, 100, 150);
+  }
+  /* .backhome{
+  display: flex;
+  justify-content: center;
+  } */
+  .home{
+    height: 1.5rem;
+    width: 5%;
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+    font-size: 1rem;
+  }
+  .home a{
+    text-decoration: none;
+  }
+  
+  
+  .animated{
+    position: relative;
+  animation: pfolio 2s ease-in infinite normal none;
+  }@keyframes pfolio {
+    0% {
+      /* top: -50px;
+      left: 0px; */
+      color: rgb(217, 183, 214);
+    }
+    20% {
+      /* top: 0px;
+      left: -50px; */
+      color: rgb(67, 143, 205);
+    }
+    40% {
+      /* top: 50px;
+      left: 0px; */
+      color: rgb(90, 219, 161);
+    }
+    60% {
+      /* top: 0px;
+      left: 50px; */
+      color: rgb(206, 61, 61);
+    }
+    80% {
+      /* top: -50px;
+      left: 0px; */
+      color: rgb(122, 83, 181);
+    }
+    100%{
+      color: rgb(168, 200, 73);
+    }
+  }
